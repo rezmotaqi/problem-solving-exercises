@@ -18,7 +18,19 @@ def reversearray3(a):
     return print(f'output of third way{b}')
 
 
+def reversearray4(a):
+    start = 0
+    end = len(a)-1
+    while start < end:
+        temp = a[start]
+        a[start] = a[end]
+        a[end] = temp
+        start += 1
+        end -= 1
+    return a
+
 reversearray([1, 2, 3, 4])
 reversearray2([1, 2, 3, 4])
 reversearray3([1, 2, 3, 4])
+reversearray4([1, 2, 3, 4])
 

@@ -27,7 +27,7 @@ def reversearray4(a):
         a[end] = temp
         start += 1
         end -= 1
-    return a
+    return print(f'output of 4th way{a}')
 
 reversearray([1, 2, 3, 4])
 reversearray2([1, 2, 3, 4])
